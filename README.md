@@ -1,5 +1,11 @@
-# Gemnasium API documentation
+# Gemnasium REST API v3 documentation
 
-This repo host the Gemnasium API documentation.
+## Start swagger on localhost
 
-The documentation is currently written with the [API Blueprint](http://apiblueprint.org/) format and is available on [Apiary.io](http://docs.gemnasium.apiary.io/).
+```
+$ docker-compose up -d
+$ echo -e "\nBrowse to http://`docker-compose port swagger 8080`\n"
+
+Browse to http://0.0.0.0:32782
+
+```
